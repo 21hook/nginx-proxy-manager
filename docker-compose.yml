@@ -11,5 +11,5 @@ services:
     environment:
       - TZ=UTC
     volumes:
-      - ./data:/data
-      - ./letsencrypt:/etc/letsencrypt
+      - data:/data
+      - letsencrypt:/etc/letsencrypt
